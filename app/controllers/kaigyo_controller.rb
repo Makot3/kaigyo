@@ -1,0 +1,2 @@
+class KaigyoController < ApplicationController
+end
