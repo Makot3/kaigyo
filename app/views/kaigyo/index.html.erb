@@ -1,0 +1,26 @@
+<div class="headerArea">
+  <div class="appNameArea">
+    <label class="appname">KAIGYOKUN</label>
+    <label class="appsubname">～～日本のどこかの地域メールが便利に～～</label>
+  </div>
+</div>
+
+<div class="contentArea">
+  <%= form_for(@text, url:{controller:'kaigyo', action:'index', id:1}) do |form| %>
+  <div>
+  <input class="submitButton" type="submit" value="改行"/>
+  </div>
+
+  <div class="beforeTextArea">
+    <label class="">改行前メール</label>
+    <%= form.text_area :before, rows:30, class:"beforeText" %>
+  </div>
+  <div class="afterTextArea">
+    <label class="">改行後メール</label>
+    <%= form.text_area :aftere, rows:30, class:"afterText", readonly:true %>
+  </div>
+  <% end %>
+</div>
+
+<div class="footerArea">
+</div>
