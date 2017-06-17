@@ -54,7 +54,7 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-  root 'kaigyo/index'
+  root 'kaigyo#index'
   get 'hello/index', to: 'hello#index'
 
   get 'kaigyo/index'
