@@ -59,7 +59,7 @@ Rails.application.routes.draw do
 
   get '/kaigyo/index'
   get '/kaigyo', to: 'kaigyo#index'
-  patch #'/kaigyo/index'
-  patch #'/kaigyo', to: 'kaigyo#index'
+  #patch '/kaigyo/index'
+  patch root, to: 'kaigyo#index'
 
 end
