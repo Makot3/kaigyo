@@ -24,10 +24,11 @@ production:
   #<<: *default
   adapter: postgresql
   encoding: utf8
-  database: db/production.postgresql
-  #pool: 5
-  #timeout: 5000
-  #host: ec2-107-21-99-176.compute-1.amazonaws.com
+  #database: db/production.postgresql
+  database: d251nqdprpa678
+  pool: 5
+  timeout: 5000
+  host: ec2-107-21-99-176.compute-1.amazonaws.com
   port: 5432
   username: vomfjyvsgxgmsy
   password: d6b0e8be7d196383e9af8ef83917f247b8448b4397bad390800473d5bddbd3be
