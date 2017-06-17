@@ -32,3 +32,4 @@ production:
   port: 5432
   username: vomfjyvsgxgmsy
   password: d6b0e8be7d196383e9af8ef83917f247b8448b4397bad390800473d5bddbd3be
+  url: <%= ENV['DATABASE_URL'] %>
