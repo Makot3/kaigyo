@@ -53,6 +53,8 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  root 'kaigyo/index'
   get 'hello/index', to: 'hello#index'
 
   get 'kaigyo/index'
