@@ -67,7 +67,6 @@ textare {
 /*コンテンツエリア 改行前テキストエリア*/
 .beforeTextArea {
   float: left;
-  margin-left:100px;
   width:40%;
 }
 
@@ -80,7 +79,6 @@ textare {
 /*コンテンツエリア 改行後テキストエリア*/
 .afterTextArea {
   float: right;
-  margin-right:100px;
   width:40%;
 }
 
@@ -88,6 +86,8 @@ textare {
 .afterText {
   width: 100%;
 }
-
+.text_area_box_inner{
+  padding: 1em;
+}
 .footerArea {
 }
